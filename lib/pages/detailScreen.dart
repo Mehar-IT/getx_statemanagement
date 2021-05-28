@@ -14,8 +14,8 @@ class StudentDetail extends StatelessWidget {
       body: Center(
           child: Card(
               child: Container(
-        decoration: BoxDecoration(
-            gradient: LinearGradient(colors: [Colors.cyan, Colors.teal])),
+        // decoration: BoxDecoration(
+        //     gradient: LinearGradient(colors: [Colors.cyan, Colors.teal])),
         height: 350,
         width: 300,
         child: Column(
