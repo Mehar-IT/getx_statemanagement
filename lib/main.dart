@@ -41,7 +41,7 @@ class MyList extends StatelessWidget {
                   onTap: () {
                     Get.snackbar('Hi',
                         'Student ${obj.student[index].id} ${obj.student[index].name} is selected',
-                        barBlur: 100,
+                        barBlur: 200,
                         margin: EdgeInsets.all(10),
                         snackPosition: SnackPosition.BOTTOM);
                     // Get.defaultDialog(
