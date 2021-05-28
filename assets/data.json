@@ -1,94 +1,94 @@
 {
     "student": [
         {
-            "name": "hamza",
+            "name": "Hamza",
             "roll_no": 1,
-            "dept": "iict",
-            "uni": "Sindh"
+            "dept": "IICT",
+            "uni": "University of Sindh"
         },
         {
-            "name": "ahsan",
+            "name": "Ahsan",
             "roll_no": 2,
-            "dept": "iict",
-            "uni": "Sindh"
+            "dept": "IICT",
+            "uni": "University of Sindh"
         },
         {
-            "name": "arsal",
+            "name": "Arsal",
             "roll_no": 3,
-            "dept": "iict",
-            "uni": "Sindh"
+            "dept": "IICT",
+            "uni": "University of Sindh"
         },
         {
-            "name": "zahid",
+            "name": "Zahid",
             "roll_no": 4,
-            "dept": "iict",
-            "uni": "Sindh"
+            "dept": "IICT",
+            "uni": "University of Sindh"
         },
         {
-            "name": "kosain",
+            "name": "Kosain",
             "roll_no": 5,
-            "dept": "iict",
-            "uni": "Sindh"
+            "dept": "IICT",
+            "uni": "University of Sindh"
         },
         {
-            "name": "huzaifa",
+            "name": "Huzaifa",
             "roll_no": 6,
-            "dept": "iict",
-            "uni": "Sindh"
+            "dept": "IICT",
+            "uni": "University of Sindh"
         },
         {
-            "name": "yazdan",
+            "name": "Yazdan",
             "roll_no": 7,
-            "dept": "iict",
-            "uni": "Sindh"
+            "dept": "IICT",
+            "uni": "University of Sindh"
         },
         {
-            "name": "yasir",
+            "name": "Yasir",
             "roll_no": 8,
-            "dept": "iict",
-            "uni": "Sindh"
+            "dept": "IICT",
+            "uni": "University of Sindh"
         },
         {
-            "name": "kashif",
+            "name": "Kashif",
             "roll_no": 9,
-            "dept": "iict",
-            "uni": "Sindh"
+            "dept": "IICT",
+            "uni": "University of Sindh"
         },
         {
-            "name": "fahad",
+            "name": "Fahad",
             "roll_no": 10,
-            "dept": "iict",
-            "uni": "Sindh"
+            "dept": "IICT",
+            "uni": "University of Sindh"
         },
         {
-            "name": "gajju",
+            "name": "Gajju",
             "roll_no": 11,
-            "dept": "iict",
-            "uni": "Sindh"
+            "dept": "IICT",
+            "uni": "University of Sindh"
         },
         {
-            "name": "javed",
+            "name": "Javed",
             "roll_no": 12,
-            "dept": "iict",
-            "uni": "Sindh"
+            "dept": "IICT",
+            "uni": "University of Sindh"
         },
         {
-            "name": "adil",
+            "name": "Adil",
             "roll_no": 13,
-            "dept": "iict",
-            "uni": "Sindh"
+            "dept": "IICT",
+            "uni": "University of Sindh"
         },
         {
-            "name": "kamran",
+            "name": "Kamran",
             "roll_no": 14,
-            "dept": "iict",
-            "uni": "Sindh"
+            "dept": "IICT",
+            "uni": "University of Sindh"
         },
         {
-            "name": "hussain",
+            "name": "Hussain",
             "roll_no": 15,
-            "dept": "iict",
-            "uni": "Sindh"
+            "dept": "IICT",
+            "uni": "University of University of Sindh"
         }
     ]
 }

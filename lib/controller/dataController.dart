@@ -2,7 +2,7 @@ import 'dart:convert';
 
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
-import '../data.dart';
+import 'package:test1/model/data.dart';
 
 class DataController extends GetxController {
   RxList<Data> _student = <Data>[].obs;

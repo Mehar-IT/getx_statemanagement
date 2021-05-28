@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:test1/model/controller/dataController.dart';
+import 'package:test1/controller/dataController.dart';
+
+import 'pages/detailScreen.dart';
 
 void main() {
   runApp(MyApp());
@@ -39,15 +41,9 @@ class MyList extends StatelessWidget {
               itemBuilder: (context, index) => Card(
                 child: ListTile(
                   onTap: () {
-                    // Get.snackbar('Hi',
-                    //     'Student ${obj.student[index].id} ${obj.student[index].name} is selected',
-                    //     barBlur: 200,
-                    //     margin: EdgeInsets.all(10),
-                    //     snackPosition: SnackPosition.BOTTOM);
-                    Get.defaultDialog(
-                        title: 'Hi!',
-                        content: Text(
-                            'Student ${obj.student[index].id} ${obj.student[index].name} is selected'));
+                    Get.to(() => StudentDetail(
+                          student: obj.student[index],
+                        ));
                   },
                   leading: Text('${obj.student[index].id}'),
                   title: Text('${obj.student[index].name}'),
