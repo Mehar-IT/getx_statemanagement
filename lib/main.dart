@@ -39,15 +39,15 @@ class MyList extends StatelessWidget {
               itemBuilder: (context, index) => Card(
                 child: ListTile(
                   onTap: () {
-                    Get.snackbar('Hi',
-                        'Student ${obj.student[index].id} ${obj.student[index].name} is selected',
-                        barBlur: 200,
-                        margin: EdgeInsets.all(10),
-                        snackPosition: SnackPosition.BOTTOM);
-                    // Get.defaultDialog(
-                    //   title: 'This is dialog box ${obj.student[index].id}',
-
-                    // );
+                    // Get.snackbar('Hi',
+                    //     'Student ${obj.student[index].id} ${obj.student[index].name} is selected',
+                    //     barBlur: 200,
+                    //     margin: EdgeInsets.all(10),
+                    //     snackPosition: SnackPosition.BOTTOM);
+                    Get.defaultDialog(
+                        title: 'Hi!',
+                        content: Text(
+                            'Student ${obj.student[index].id} ${obj.student[index].name} is selected'));
                   },
                   leading: Text('${obj.student[index].id}'),
                   title: Text('${obj.student[index].name}'),
