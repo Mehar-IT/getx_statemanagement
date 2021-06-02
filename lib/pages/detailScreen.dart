@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:test1/model/data.dart';
 import 'package:test1/widgets/myDrawer.dart';
 
@@ -11,6 +12,14 @@ class StudentDetail extends StatelessWidget {
     return Scaffold(
       drawer: MyDrawer(),
       appBar: AppBar(
+        actions: [
+          IconButton(
+            icon: Icon(Icons.arrow_back),
+            onPressed: () {
+              Get.back();
+            },
+          ),
+        ],
         title: Text('Student Detail'),
       ),
       body: Center(
