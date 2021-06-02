@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:get/get.dart';
-import 'package:test1/controller/themeController.dart';
 import 'package:test1/model/data.dart';
+import 'package:test1/widgets/myDrawer.dart';
 
 class StudentDetail extends StatelessWidget {
   final Data student;
@@ -10,16 +9,8 @@ class StudentDetail extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      drawer: MyDrawer(),
       appBar: AppBar(
-        actions: [
-          GetX<ThemeController>(
-              init: ThemeController(),
-              builder: (controller) => Switch(
-                  value: controller.theme.value,
-                  onChanged: (bool value) {
-                    controller.changeTheme();
-                  }))
-        ],
         title: Text('Student Detail'),
       ),
       body: Center(
