@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:test1/controller/dataController.dart';
 import 'package:get/get.dart';
-
 import 'detailScreen.dart';
 
 class MyList extends StatelessWidget {

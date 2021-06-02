@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
+import 'package:test1/controller/themeController.dart';
 import 'package:test1/model/data.dart';
 
 class StudentDetail extends StatelessWidget {
@@ -9,13 +11,20 @@ class StudentDetail extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        actions: [
+          GetX<ThemeController>(
+              init: ThemeController(),
+              builder: (controller) => Switch(
+                  value: controller.theme.value,
+                  onChanged: (bool value) {
+                    controller.changeTheme();
+                  }))
+        ],
         title: Text('Student Detail'),
       ),
       body: Center(
           child: Card(
               child: Container(
-        // decoration: BoxDecoration(
-        //     gradient: LinearGradient(colors: [Colors.cyan, Colors.teal])),
         height: 350,
         width: 300,
         child: Column(
@@ -33,29 +42,25 @@ class StudentDetail extends StatelessWidget {
                 child: Text(
                   'Roll# ${student.id}',
                   textScaleFactor: 1.2,
-                  style: TextStyle(
-                      color: Colors.white, fontWeight: FontWeight.bold),
+                  style: TextStyle(fontWeight: FontWeight.bold),
                 )),
             SizedBox(height: 30),
             Text(
               '${student.name}',
               textScaleFactor: 2,
-              style:
-                  TextStyle(color: Colors.white, fontWeight: FontWeight.bold),
+              style: TextStyle(fontWeight: FontWeight.bold),
             ),
             SizedBox(height: 30),
             Text(
               '${student.dept}',
               textScaleFactor: 2,
-              style:
-                  TextStyle(color: Colors.white, fontWeight: FontWeight.bold),
+              style: TextStyle(fontWeight: FontWeight.bold),
             ),
             SizedBox(height: 30),
             Text(
               '${student.uni}',
               textScaleFactor: 2,
-              style:
-                  TextStyle(color: Colors.white, fontWeight: FontWeight.bold),
+              style: TextStyle(fontWeight: FontWeight.bold),
             ),
           ],
         ),
